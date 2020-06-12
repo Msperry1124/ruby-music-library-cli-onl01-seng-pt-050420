@@ -32,4 +32,3 @@ class Genre
     songs.collect{|song| song.artist}.uniq
   end
 end
-
