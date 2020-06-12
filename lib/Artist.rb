@@ -22,3 +22,7 @@ end
 def save
   @@all << self
 end
+
+def self.create(artist)
+  
+end
