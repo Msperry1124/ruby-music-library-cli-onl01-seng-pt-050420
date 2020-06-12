@@ -5,3 +5,8 @@ class Artist
   extend Concerns::Findable
   @@all = []
 end
+
+def initialize(name)
+  @name = name
+  @songs = []
+end
