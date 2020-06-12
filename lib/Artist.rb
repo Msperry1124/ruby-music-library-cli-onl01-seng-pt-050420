@@ -46,3 +46,8 @@ def add_song(song)
   end
   song
 end
+
+def genres
+  @new_array = []
+  @songs. each do |song|
+    if @new_array.include?(song.genre)
